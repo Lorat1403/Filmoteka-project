@@ -7,7 +7,7 @@
   text-align: center;
   padding: 30px 0;
   color: $second-color;
-  background-color: $footer-background-color;
+  background-color: $footer-bg-color;
   // min-height: 80px;
 
   @media screen and (min-width: $tablet) {
@@ -94,6 +94,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+  color: $title-color;
 
   @media screen and (min-width: $tablet) {
     margin-bottom: 0;
@@ -104,6 +105,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: $title-color;
 }
 
 .gallery_section {

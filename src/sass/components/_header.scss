@@ -1,6 +1,6 @@
 .header {
   padding-top: 40px;
-  min-height: 230px;
+  min-height: 120px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,6 @@
 }
 .header_home {
   background-position: 50% bottom;
-
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.56),
@@ -52,8 +51,8 @@
   @media screen and (min-width: 1280px) {
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.56),
-        rgba(0, 0, 0, 0.56)
+        rgba(41, 33, 33, 0.0),
+        rgba(10, 10, 10, 0.0)
       ),
       url(/src/images/home-header-desk.jpg);
     background-size: cover;
